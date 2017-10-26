@@ -12,6 +12,13 @@
 		7AA415421FA256AB00D315E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA415401FA256AB00D315E4 /* Main.storyboard */; };
 		7AA415441FA256AB00D315E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA415431FA256AB00D315E4 /* Assets.xcassets */; };
 		7AA415471FA256AB00D315E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA415451FA256AB00D315E4 /* LaunchScreen.storyboard */; };
+		7AA4155A1FA25B3A00D315E4 /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415591FA25B3A00D315E4 /* CreativityController.swift */; };
+		7AA4155C1FA25B4800D315E4 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4155B1FA25B4800D315E4 /* AbstractionController.swift */; };
+		7AA4155E1FA25B5B00D315E4 /* DataAndInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */; };
+		7AA415601FA25B6C00D315E4 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */; };
+		7AA415621FA25B7700D315E4 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415611FA25B7700D315E4 /* ProgrammingController.swift */; };
+		7AA415641FA25B8500D315E4 /* TheInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415631FA25B8500D315E4 /* TheInternetController.swift */; };
+		7AA415661FA25B9A00D315E4 /* GlobalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415651FA25B9A00D315E4 /* GlobalController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		7AA415431FA256AB00D315E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA415461FA256AB00D315E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA415481FA256AB00D315E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA415591FA25B3A00D315E4 /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
+		7AA4155B1FA25B4800D315E4 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
+		7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoController.swift; sourceTree = "<group>"; };
+		7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
+		7AA415611FA25B7700D315E4 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
+		7AA415631FA25B8500D315E4 /* TheInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetController.swift; sourceTree = "<group>"; };
+		7AA415651FA25B9A00D315E4 /* GlobalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,13 @@
 			children = (
 				7AA4153C1FA256AB00D315E4 /* AppDelegate.swift */,
 				7AA4153E1FA256AB00D315E4 /* ViewController.swift */,
+				7AA415591FA25B3A00D315E4 /* CreativityController.swift */,
+				7AA4155B1FA25B4800D315E4 /* AbstractionController.swift */,
+				7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */,
+				7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */,
+				7AA415611FA25B7700D315E4 /* ProgrammingController.swift */,
+				7AA415631FA25B8500D315E4 /* TheInternetController.swift */,
+				7AA415651FA25B9A00D315E4 /* GlobalController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4155E1FA25B5B00D315E4 /* DataAndInfoController.swift in Sources */,
+				7AA415661FA25B9A00D315E4 /* GlobalController.swift in Sources */,
+				7AA415621FA25B7700D315E4 /* ProgrammingController.swift in Sources */,
+				7AA415601FA25B6C00D315E4 /* AlgorithmsController.swift in Sources */,
+				7AA4155C1FA25B4800D315E4 /* AbstractionController.swift in Sources */,
+				7AA415641FA25B8500D315E4 /* TheInternetController.swift in Sources */,
+				7AA4155A1FA25B3A00D315E4 /* CreativityController.swift in Sources */,
 				7AA4153F1FA256AB00D315E4 /* ViewController.swift in Sources */,
 				7AA4153D1FA256AB00D315E4 /* AppDelegate.swift in Sources */,
 			);
