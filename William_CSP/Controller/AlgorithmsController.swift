@@ -61,11 +61,6 @@ public class AlgorithmsController: UIViewController
     
     override public func viewDidLoad()
     {
-        
-    }
-    
-    override public func didReceiveMemoryWarning()
-    {
-        <#code#>
+        super.viewDidLoad()
     }
 }
