@@ -54,7 +54,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3I-tJ-ed6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample" translatesAutoresizingMaskIntoConstraints="NO" id="o3I-tJ-ed6">
                                 <rect key="frame" x="21" y="382" width="332" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -161,4 +161,7 @@
             <point key="canvasLocation" x="2319" y="119"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="javaSample" width="1126" height="754"/>
+    </resources>
 </document>
