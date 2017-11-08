@@ -8,6 +8,6 @@
 
 import UIKit
 
-class AlgorithmsController: NSObject {
+class AlgorithmsController: UIViewController {
 
 }

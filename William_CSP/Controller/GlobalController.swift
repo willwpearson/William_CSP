@@ -8,6 +8,6 @@
 
 import UIKit
 
-class GlobalController: NSObject {
+class GlobalController: UIViewController {
 
 }

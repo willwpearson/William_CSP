@@ -8,6 +8,6 @@
 
 import UIKit
 
-class ProgrammingController: NSObject {
+class ProgrammingController: UIViewController {
 
 }

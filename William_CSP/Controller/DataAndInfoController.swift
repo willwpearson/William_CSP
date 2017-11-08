@@ -8,6 +8,6 @@
 
 import UIKit
 
-class DataAndInfoController: NSObject {
+class DataAndInfoController: UIViewController {
 
 }

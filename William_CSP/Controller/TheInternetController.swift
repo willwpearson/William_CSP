@@ -8,6 +8,6 @@
 
 import UIKit
 
-class TheInternetController: NSObject {
+class TheInternetController: UIViewController {
 
 }

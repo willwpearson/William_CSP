@@ -8,6 +8,6 @@
 
 import UIKit
 
-class AbstractionController: NSObject {
+class AbstractionController: UIViewController {
 
 }

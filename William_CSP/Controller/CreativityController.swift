@@ -8,6 +8,6 @@
 
 import UIKit
 
-class CreativityController: NSObject {
+class CreativityController: UIViewController {
 
 }
