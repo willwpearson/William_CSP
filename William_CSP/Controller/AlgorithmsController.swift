@@ -18,15 +18,15 @@ public class AlgorithmsController: UIViewController
         var algorithmSteps : [String] = []
         
         let algorithm :String = "These are the instructions to create a projec in Java using Eclipse and Github \n"
-        let stepOne :String = "First, Create a new project in Eclipse. (File - New - Java Project)"
-        let stepTwo :String = "Second, Add the packages in the source folder to follow MVC. (Model, View, Controller)"
-        let stepThree :String = "Third, Create a new repository in Github, with the same name as the project. (File - New Repository)"
-        let stepFour :String = "Fourth, Undo initial commit in Github, and go to the repository settings. Inside the area called “Ignored Files”, ignore these: bin/, DS_Store, *.class"
-        let stepFive :String = "Fifth, Make a new commit for the initial commit."
-        let stepSix :String = "Sixth, Inside the Controller package, add new classes: ProjectController and ProjectRunner."
-        let stepSeven :String = "Next, Inside the ProjectRunner class, create the main method associated with any project."
-        let stepEight :String = "And then, Inside the ProjectController class, create the start method associated with that project."
-        let stepNine :String = "Finally, Write the project."
+        let stepOne :String = "First, create a new project in Eclipse. (File - New - Java Project)"
+        let stepTwo :String = "Second, add the packages in the source folder to follow MVC. (Model, View, Controller)"
+        let stepThree :String = "Third, create a new repository in Github, with the same name as the project. (File - New Repository)"
+        let stepFour :String = "Fourth, undo initial commit in Github, and go to the repository settings. Inside the area called “Ignored Files”, ignore these: bin/, DS_Store, *.class"
+        let stepFive :String = "Fifth, make a new commit for the initial commit."
+        let stepSix :String = "Sixth, inside the Controller package, add new classes: ProjectController and ProjectRunner."
+        let stepSeven :String = "Next, inside the ProjectRunner class, create the main method associated with any project."
+        let stepEight :String = "And then, inside the ProjectController class, create the start method associated with that project."
+        let stepNine :String = "Finally, write the project."
         
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight, stepNine]
         
