@@ -8,6 +8,9 @@
 
 import UIKit
 
-class AlgorithmsController: UIViewController {
-
+class AlgorithmsController: UIViewController
+{
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    
 }
