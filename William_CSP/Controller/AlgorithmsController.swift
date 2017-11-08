@@ -17,6 +17,7 @@ public class AlgorithmsController: UIViewController
     {
         var algorithmSteps : [String] = []
         
+        // MARK: - Algorithm definition
         let algorithm :String = "These are the instructions to create a projec in Java using Eclipse and Github \n"
         let stepOne :String = "First, create a new project in Eclipse. (File - New - Java Project)"
         let stepTwo :String = "Second, add the packages in the source folder to follow MVC. (Model, View, Controller)"
@@ -28,6 +29,7 @@ public class AlgorithmsController: UIViewController
         let stepEight :String = "And then, inside the ProjectController class, create the start method associated with that project."
         let stepNine :String = "Finally, write the project."
         
+        // TODO: Finish adding all steps to the algorithm
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight, stepNine]
         
         let attributesDictionary = [NSAttributedStringKey.font : firstLabel.font]
@@ -62,5 +64,6 @@ public class AlgorithmsController: UIViewController
     override public func viewDidLoad()
     {
         super.viewDidLoad()
+        setupAlgorithm()
     }
 }
