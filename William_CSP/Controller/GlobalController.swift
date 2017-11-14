@@ -16,7 +16,7 @@ class GlobalController: UIViewController
 
     private func setupGlobal() -> Void
     {
-        firstImage.image = UIImage(named: "water_app_concept")
+        firstImage.image = UIImage(named: "water_app_xD")
         
         var problemString : String
         problemString = "This problem is worldwide, and there are a large number of deaths amounted to this every single day."
