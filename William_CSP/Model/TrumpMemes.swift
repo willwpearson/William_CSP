@@ -22,7 +22,7 @@ public class TrumpMemes : Memeable
     //MARK:- Memeable methods
     public func meme() -> Void
     {
-        print("I am meme")
+        print("I am now meme xD")
         memeState = true
     }
     
