@@ -67,4 +67,29 @@ public class AbstractionController: UIPageViewController, UIPageViewControllerDa
         
         return orderedAbstractionViews[previousIndex]
     }
+    
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+        else
+        {
+            return nil
+        }
+        
+        let nextIndex = viewControllerIndex + 1
+        
+        guard nextIndex >= 0
+        else
+        {
+            return nil
+        }
+        
+        guard nextIndex < orderedAbstractionViews.count
+        else
+        {
+            return orderedAbstractionViews.first
+        }
+        
+        return orderedAbstractionViews[nextIndex]
+    }
 }
