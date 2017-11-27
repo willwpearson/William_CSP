@@ -23,5 +23,13 @@ public class AbstractionController: UIPageViewController, UIPageViewControllerDa
     }()
     
     //Helper method to retrieve the correct ViewController
+    private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
+    {
+        return UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController(withIdentifier: "\(abstractionLevel)ViewController")
+    }
     
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+    }
 }
