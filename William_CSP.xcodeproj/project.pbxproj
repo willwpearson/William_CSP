@@ -19,7 +19,7 @@
 		7AA4155E1FA25B5B00D315E4 /* DataAndInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */; };
 		7AA415601FA25B6C00D315E4 /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */; };
 		7AA415621FA25B7700D315E4 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415611FA25B7700D315E4 /* ProgrammingController.swift */; };
-		7AA415641FA25B8500D315E4 /* TheInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415631FA25B8500D315E4 /* TheInternetController.swift */; };
+		7AA415641FA25B8500D315E4 /* TheInternetMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */; };
 		7AA415661FA25B9A00D315E4 /* GlobalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415651FA25B9A00D315E4 /* GlobalController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInfoController.swift; sourceTree = "<group>"; };
 		7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		7AA415611FA25B7700D315E4 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
-		7AA415631FA25B8500D315E4 /* TheInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetController.swift; sourceTree = "<group>"; };
+		7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetMasterController.swift; sourceTree = "<group>"; };
 		7AA415651FA25B9A00D315E4 /* GlobalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 				7AA4155D1FA25B5B00D315E4 /* DataAndInfoController.swift */,
 				7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */,
 				7AA415611FA25B7700D315E4 /* ProgrammingController.swift */,
-				7AA415631FA25B8500D315E4 /* TheInternetController.swift */,
+				7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */,
 				7AA415651FA25B9A00D315E4 /* GlobalController.swift */,
 			);
 			path = Controller;
@@ -202,7 +202,7 @@
 				7AA415601FA25B6C00D315E4 /* AlgorithmsController.swift in Sources */,
 				7AA4155C1FA25B4800D315E4 /* AbstractionController.swift in Sources */,
 				7A57F3A31FC35F1B0018FA85 /* Memeable.swift in Sources */,
-				7AA415641FA25B8500D315E4 /* TheInternetController.swift in Sources */,
+				7AA415641FA25B8500D315E4 /* TheInternetMasterController.swift in Sources */,
 				7AA4155A1FA25B3A00D315E4 /* CreativityController.swift in Sources */,
 				7AA4153F1FA256AB00D315E4 /* ViewController.swift in Sources */,
 				7AA4153D1FA256AB00D315E4 /* AppDelegate.swift in Sources */,
