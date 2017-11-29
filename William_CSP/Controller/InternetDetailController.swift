@@ -16,7 +16,8 @@ public class InternetDetailController : UIViewController
     @IBOutlet weak var webViewer: WKWebView!
     
     
-    override public func viewDidLoad() {
+    override public func viewDidLoad()
+    {
         super.viewDidLoad()
         setup()
         // Do any additional setup after loading the view.
