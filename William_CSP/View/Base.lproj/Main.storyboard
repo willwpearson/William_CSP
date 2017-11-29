@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="669.60000000000002" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Internet Detail Controller-->
         <scene sceneID="53C-Ga-2Ce">
             <objects>
-                <viewController id="7Ga-fu-ndp" sceneMemberID="viewController">
+                <viewController id="7Ga-fu-ndp" customClass="InternetDetailController" customModule="William_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHR-54-78b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,13 +76,13 @@
         <!--Root View Controller-->
         <scene sceneID="G8u-Dk-Cuy">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="g7z-Ek-lZg" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="g7z-Ek-lZg" customClass="TheInternetMasterController" customModule="William_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZI8-Gb-n95">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="faS-mq-hV7">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="faS-mq-hV7">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="faS-mq-hV7" id="JfR-ul-LMK">

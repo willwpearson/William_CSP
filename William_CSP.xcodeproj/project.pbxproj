@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A210B9E1FCF39AA009DE9A7 /* InternetDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A210B9D1FCF39AA009DE9A7 /* InternetDetailController.swift */; };
+		7A210BA11FCF3B99009DE9A7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A210BA01FCF3B99009DE9A7 /* WebKit.framework */; };
 		7A57F3A31FC35F1B0018FA85 /* Memeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57F3A21FC35F1B0018FA85 /* Memeable.swift */; };
 		7A57F3A51FC35F2F0018FA85 /* TrumpMemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57F3A41FC35F2F0018FA85 /* TrumpMemes.swift */; };
 		7AA4153D1FA256AB00D315E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4153C1FA256AB00D315E4 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		7A210B9D1FCF39AA009DE9A7 /* InternetDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailController.swift; sourceTree = "<group>"; };
+		7A210BA01FCF3B99009DE9A7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7A57F3A21FC35F1B0018FA85 /* Memeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memeable.swift; sourceTree = "<group>"; };
 		7A57F3A41FC35F2F0018FA85 /* TrumpMemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpMemes.swift; sourceTree = "<group>"; };
 		7AA415391FA256AB00D315E4 /* William_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = William_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A210BA11FCF3B99009DE9A7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A210B9F1FCF3B99009DE9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A210BA01FCF3B99009DE9A7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7AA415301FA256AB00D315E4 = {
 			isa = PBXGroup;
 			children = (
 				7AA4153B1FA256AB00D315E4 /* William_CSP */,
 				7AA4153A1FA256AB00D315E4 /* Products */,
+				7A210B9F1FCF3B99009DE9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +105,8 @@
 				7AA4155F1FA25B6C00D315E4 /* AlgorithmsController.swift */,
 				7AA415611FA25B7700D315E4 /* ProgrammingController.swift */,
 				7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */,
-				7AA415651FA25B9A00D315E4 /* GlobalController.swift */,
 				7A210B9D1FCF39AA009DE9A7 /* InternetDetailController.swift */,
+				7AA415651FA25B9A00D315E4 /* GlobalController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
