@@ -22,11 +22,19 @@ public class TheInternetMasterController: UITableViewController
         ]
     }()
     
-    private var detailViewController : InternetDetailViewController?
+    private lazy var addresses : [String] = []
+    
+    private var detailViewController : InternetDetailController?
     
     private func setup() -> Void
     {
-        
+        addresses = [
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "http://www.canyonsdistrict.org/",
+            "https://ctec.canyonsdistrict.org/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0",
+            "https://twitter.com/?lang=en"
+        ]
     }
     
     override public func viewDidLoad()
@@ -39,7 +47,7 @@ public class TheInternetMasterController: UITableViewController
     
     // MARK: - Table view data source
     
-    ovverride public func numberOfSections(in tableView: UITableView) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
         // #warning Incomplete implementation, return the number of sections
         return 1
