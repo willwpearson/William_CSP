@@ -35,6 +35,12 @@ public class TheInternetMasterController: UITableViewController
             "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0",
             "https://twitter.com/?lang=en"
         ]
+        
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?InternetDetailController
+        }
     }
     
     override public func viewDidLoad()
