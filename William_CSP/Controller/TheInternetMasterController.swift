@@ -73,4 +73,33 @@ public class TheInternetMasterController: UITableViewController
         return cell
     }
     
+    //MARK: Handle the internal transfer
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                
+                if indexPath.row == 0
+                {
+                    pageText = ""
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = segue.destination as!InternetDetailController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+                
+            }
+        }
+    }
 }
