@@ -25,16 +25,8 @@
                                     <segue destination="hzf-m8-lt0" kind="show" id="WfD-DN-Krl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bip-MF-Gmp">
-                                <rect key="frame" x="140" y="490" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Global Impact"/>
-                                <connections>
-                                    <segue destination="owp-Ww-6qg" kind="show" id="HVq-CJ-38C"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhC-Vk-d7h">
-                                <rect key="frame" x="147" y="380" width="80" height="30"/>
+                                <rect key="frame" x="147" y="396" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Abstraction"/>
                                 <connections>
@@ -42,11 +34,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-jX-dDZ">
-                                <rect key="frame" x="160" y="342" width="54" height="30"/>
+                                <rect key="frame" x="160" y="358" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Internet"/>
                                 <connections>
                                     <segue destination="6DT-9b-UPZ" kind="show" id="uxb-tE-VH5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bip-MF-Gmp">
+                                <rect key="frame" x="140" y="472" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Global Impact"/>
+                                <connections>
+                                    <segue destination="owp-Ww-6qg" kind="show" id="HVq-CJ-38C"/>
                                 </connections>
                             </button>
                         </subviews>
