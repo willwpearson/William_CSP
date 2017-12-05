@@ -86,7 +86,8 @@ public class TheInternetMasterController: UITableViewController
                 if indexPath.row == 0
                 {
                     //TODO: Replace with the definitions.
-                    pageText = ""
+                    pageText = "URL: Uniform Resource Locator – The address of a world wide web page. IP: Internet Protocol – The method or protocol by which data is sent from one computer to another computer on the Internet. DNS: Domain Name System - The Internet's system for converting alphabetic names into numeric IP addresses. TCP: Transmission Control Protocol - TCP provides reliable,  ordered, and an error-checked delivery of a stream of octets between applications running on hosts communicating by an IP network."
+                    
                 }
                 else
                 {
