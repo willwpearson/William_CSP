@@ -54,12 +54,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     
     //MARK: - SplitView Delegate
     
-    func splitViewcontroller(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController : UIViewController,onto primaryViewController: UIViewController) ->  Bool
+    func splitViewcontroller(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController : UIViewController, onto primaryViewController : UIViewController) ->  Bool
     {
-        guard let secondaryAsNavController = secondaryViewController as? UINavigationController
-            else {return false}
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? InternetDetailController
-            else {return false}
+        guard let secondaryAsNavController = secondaryViewController as? UINavigationController else {return false}
+        guard let topAsDetailController = secondaryAsNavController.topViewController as? InternetDetailController else {return false}
         if topAsDetailController.detailAddress == nil
         {
             //Return true to indicate that we handled the collapse by doing nothing; the secondary controller will be discarded.
