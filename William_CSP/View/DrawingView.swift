@@ -16,7 +16,7 @@ public class DrawingView: UIView
     {
         // Drawing code
         drawStickFigure().stroke()
-        //drawTurtle()
+        drawTurtle()
         //drawHappyTree()
     }
     
@@ -42,5 +42,16 @@ public class DrawingView: UIView
         stickFigure.addLine(to: CGPoint(x: 220, y: 300))
         
         return stickFigure
+    }
+    
+    public func drawTurtle() -> Void
+    {
+        let logo = UIBezierPath()
+        UIColor.black.setFill()
+        logo.move(to: CGPoint(x: 50, y: 250))
+        logo.addLine(to: CGPoint(x: 100, y:300))
+        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.close()
+        logo.fill()
     }
 }

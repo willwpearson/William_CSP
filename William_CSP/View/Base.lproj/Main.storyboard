@@ -17,36 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTV-rn-9RF">
-                                <rect key="frame" x="154" y="434" width="67" height="30"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCF-eJ-FRh" customClass="DrawingView" customModule="William_CSP" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Algorithm"/>
-                                <connections>
-                                    <segue destination="hzf-m8-lt0" kind="show" id="WfD-DN-Krl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhC-Vk-d7h">
-                                <rect key="frame" x="147" y="396" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Abstraction"/>
-                                <connections>
-                                    <segue destination="v82-K8-xZp" kind="show" id="J0M-tk-B1Q"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-jX-dDZ">
-                                <rect key="frame" x="160" y="358" width="54" height="30"/>
+                                <rect key="frame" x="160" y="617" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Internet"/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="6DT-9b-UPZ" kind="show" id="uxb-tE-VH5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bip-MF-Gmp">
-                                <rect key="frame" x="140" y="472" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Global Impact"/>
-                                <connections>
-                                    <segue destination="owp-Ww-6qg" kind="show" id="HVq-CJ-38C"/>
                                 </connections>
                             </button>
                         </subviews>
