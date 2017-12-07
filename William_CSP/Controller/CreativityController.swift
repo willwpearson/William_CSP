@@ -61,4 +61,25 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
             }
         }
     }
+    
+    //MARK: Lifecycle methods
+    override public func  viewDidLoad()
+    {
+        super.viewDidLoad()
+    }
+    
+    //MARK:- UICollectionView methods
+    
+    override public func numberOfSections(in collectionView: UICollectionView) -> Int
+    {
+        return 1
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView,
+                                        numberOfItemsInSection section: Int) -> Int
+    {
+        return artSelection.count
+    }
+    
+    
 }
