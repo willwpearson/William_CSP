@@ -21,13 +21,13 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
             UIImage(named: "happy tree drawing"),
             UIImage(named: "water_map"),
             UIImage(named: "JavaCode"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer"),
-            UIImage(named: "cute reindeer")
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer"),
+            UIImage(named: "Cute_Reindeer")
             ]
     }()
     
@@ -86,10 +86,49 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
     {
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
-        artCell.backgroundColor = .cyan
+        artCell.backgroundColor = .gray
         artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "My Art"
         
         return artCell
     }
+    
+    //MARK:- Delegate methods
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               sizeForItemAt indexPath: IndexPath) -> CGSize
+    {
+        if indexPath == largePhotoIndexPath
+        {
+            let art = artSelection[indexPath.row]
+            let size = collectionView.bounds.size
+            let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
+            let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height * widthScale)
+            
+            return largeSize
+        }
+        
+        let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
+        let availableWidth = view.frame.width - paddingSpace
+        let widthPerItem = availableWidth / itemsPerRow
+        
+        return CGSize(width: widthPerItem, height: widthPerItem)
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               insetForSectionAt section: Int) -> UIEdgeInsets
+    {
+        return sectionInsets
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               minimumLineSpacingForSectionAt section: Int) -> CGFloat
+    {
+        return sectionInsets.left
+    }
+    
+    
 }
