@@ -130,5 +130,19 @@ public class CreativityController: UICollectionViewController, UICollectionViewD
         return sectionInsets.left
     }
     
+    override public func collectionView(_ collectionView: UICollectionView,
+                                        shouldSelectItemAt indexPath: IndexPath) -> Bool
+    {
+        if largePhotoIndexPath == indexPath
+        {
+            largePhotoIndexPath = nil
+        }
+        else
+        {
+            largePhotoIndexPath = indexPath
+        }
+        
+        return false
+    }
     
 }
