@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -252,6 +253,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSc-RC-j72" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-359.19999999999999" y="1698.8005997001501"/>
+        </scene>
+        <!--Creativity Controller-->
+        <scene sceneID="kcV-JO-Owa">
+            <objects>
+                <collectionViewController id="5Pp-CG-4vN" customClass="CreativityController" customModule="William_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="x0o-MV-AVt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QhG-2V-7Vc">
+                            <size key="itemSize" width="250" height="300"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="I2I-O3-JTp" customClass="ArtCell" customModule="William_CSP" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="0.0" width="250" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAy-bT-PM5">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWW-Ug-LcP">
+                                            <rect key="frame" x="0.0" y="279" width="250" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="dWW-Ug-LcP" secondAttribute="trailing" id="Jq4-KG-nFw"/>
+                                    <constraint firstItem="dWW-Ug-LcP" firstAttribute="leading" secondItem="I2I-O3-JTp" secondAttribute="leadingMargin" id="a21-sK-v2B"/>
+                                    <constraint firstItem="dWW-Ug-LcP" firstAttribute="top" secondItem="RAy-bT-PM5" secondAttribute="bottom" id="fze-ag-TZF"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="dWW-Ug-LcP" secondAttribute="bottom" id="qh2-Z7-83R"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageName" destination="dWW-Ug-LcP" id="dWw-ms-Ne7"/>
+                                    <outlet property="imageView" destination="RAy-bT-PM5" id="Gzd-EU-PTU"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="5Pp-CG-4vN" id="J8e-2Y-YRy"/>
+                            <outlet property="delegate" destination="5Pp-CG-4vN" id="6J9-g5-Y98"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nra-8v-t6T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="932"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2K2-m4-nUd">
