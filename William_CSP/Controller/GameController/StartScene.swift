@@ -25,7 +25,7 @@ public class StartScene : SKScene
     }
     
     
-    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void
     {
         let currentTouch = touches.first
         let touchLocation = currentTouch?.location(in: self)

@@ -313,7 +313,7 @@
         <!--Programming View Controller-->
         <scene sceneID="yZF-WF-Xg5">
             <objects>
-                <viewController title="Programming View Controller" id="YB1-N2-JOK" sceneMemberID="viewController">
+                <viewController title="Programming View Controller" id="YB1-N2-JOK" customClass="ProgrammingController" customModule="William_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="80d-O8-yvC" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

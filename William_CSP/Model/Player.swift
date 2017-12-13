@@ -35,6 +35,17 @@ public class Player: SKSpriteNode
         let texture = SKTexture(imageNamed: "x wing1")
         super.init(texture: texture, color: SKColor.clear, size: texture.size())
         
+        self.physicsBody = SKPhysicsBody(texture: self.texture!, size: self.size)
+        self.physicsBody?.isDynamic = true
+        self.physicsBody?.usesPreciseCollisionDetection = false
+        self.physicsBody?.categoryBitMask = CollisionCategories.Player
+        self.physicsBody?.contactTestBitMask = CollisionCategories.InvaderBullet | CollisionCategories.Invader
+        self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
+        self.physicsBody?.allowsRotation = false
+        animate()
+        
+        
+        
     }
     
     required public init?(coder aDecoder: NSCoder)
@@ -44,7 +55,14 @@ public class Player: SKSpriteNode
     
     private func animate() -> Void
     {
+        var playerTextures:[SKTexture] = []
+        for i in 1...3
+        {
+            playerTextures.append(SKTexture(imageNamed: "x wing\(i)"))
+        }
         
+        let playerAnimation = SKAction.repeatForever( SKAction.animate(with: playerTextures, timePerFrame: 0.2))
+        self.run(playerAnimation)
     }
     
     public func die () -> Void
