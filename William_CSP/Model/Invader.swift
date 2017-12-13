@@ -39,6 +39,6 @@ public class Invader: SKSpriteNode
     //MARK: - Invader methods section
     public func fireBullet(scene: SKScene) -> Void
     {
-
+        
     }
 }
