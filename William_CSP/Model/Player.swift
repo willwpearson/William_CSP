@@ -43,9 +43,7 @@ public class Player: SKSpriteNode
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
         self.physicsBody?.allowsRotation = false
         animate()
-        
-        
-        
+ 
     }
     
     required public init?(coder aDecoder: NSCoder)
