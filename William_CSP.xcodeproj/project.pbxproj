@@ -38,6 +38,7 @@
 		7AA415621FA25B7700D315E4 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415611FA25B7700D315E4 /* ProgrammingController.swift */; };
 		7AA415641FA25B8500D315E4 /* TheInternetMasterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */; };
 		7AA415661FA25B9A00D315E4 /* GlobalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA415651FA25B9A00D315E4 /* GlobalController.swift */; };
+		7AB8AA231FE9A4BB00CDAE4A /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8AA221FE9A4BB00CDAE4A /* DeathScene.swift */; };
 		7ACB99BD1FD72A1F002B9BB7 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACB99BC1FD72A1F002B9BB7 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		7AA415611FA25B7700D315E4 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		7AA415631FA25B8500D315E4 /* TheInternetMasterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetMasterController.swift; sourceTree = "<group>"; };
 		7AA415651FA25B9A00D315E4 /* GlobalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalController.swift; sourceTree = "<group>"; };
+		7AB8AA221FE9A4BB00CDAE4A /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		7ACB99BC1FD72A1F002B9BB7 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				7A24C14E1FE1AB0A00EA38D7 /* GameScene.swift */,
 				7A24C14D1FE1AB0A00EA38D7 /* LevelCompleteScene.swift */,
 				7A24C14F1FE1AB0A00EA38D7 /* StartScene.swift */,
+				7AB8AA221FE9A4BB00CDAE4A /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				7AA4155A1FA25B3A00D315E4 /* CreativityController.swift in Sources */,
 				7AA4153F1FA256AB00D315E4 /* ViewController.swift in Sources */,
 				7AA4153D1FA256AB00D315E4 /* AppDelegate.swift in Sources */,
+				7AB8AA231FE9A4BB00CDAE4A /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
