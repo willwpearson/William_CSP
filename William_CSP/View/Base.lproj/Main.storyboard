@@ -136,7 +136,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uQ-Fl-5QW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1518" y="-90"/>
+            <point key="canvasLocation" x="1644" y="-70"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="W8a-On-aUD">
@@ -173,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRc-sM-TMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-678" y="-237"/>
+            <point key="canvasLocation" x="-898" y="-218"/>
         </scene>
         <!--Abstraction Controller-->
         <scene sceneID="Rqp-oe-weV">
@@ -323,7 +323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wte-uZ-4Oz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1954" y="731"/>
+            <point key="canvasLocation" x="2140" y="862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2K2-m4-nUd">
@@ -486,7 +486,7 @@ Contact info so you know what to do if you drink poop water and to get more info
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dtx-ov-kRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-679" y="503"/>
+            <point key="canvasLocation" x="-897" y="502"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PhN-Dw-M1c">
@@ -517,6 +517,6 @@ Contact info so you know what to do if you drink poop water and to get more info
         <image name="water_map" width="416" height="276"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Bd6-Wl-QTz"/>
+        <segue reference="hoY-bY-n2j"/>
     </inferredMetricsTieBreakers>
 </document>
