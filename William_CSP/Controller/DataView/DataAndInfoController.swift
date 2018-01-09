@@ -7,7 +7,9 @@
 //
 
 import UIKit
+import Foundation
 
-class DataAndInfoController: UIViewController {
+public class DataAndInfoController : UITableViewController
+{
 
 }
