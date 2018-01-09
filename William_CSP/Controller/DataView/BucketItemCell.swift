@@ -51,7 +51,7 @@ public class BucketItemCell : UITableViewCell
             bucketItemText.text = "text goes here"
         }
         
-        bucketItemSymbol.text = randomEmojiSymbol()
+        bucketItemSymbol.text = randomEmoji()
     }
     
     public override func awakeFromNib()

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S71-31-O9h">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,27 +18,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCF-eJ-FRh" customClass="DrawingView" customModule="William_CSP" customModuleProvider="target">
-                                <rect key="frame" x="16" y="20" width="343" height="379"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="9zy-gp-PI4">
+                                <rect key="frame" x="141" y="84" width="93" height="498"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-jX-dDZ">
-                                <rect key="frame" x="160" y="617" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="eXN-lr-waa" kind="show" id="dct-9N-KLE"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkg-mS-9Aq">
+                                        <rect key="frame" x="13.5" y="0.0" width="66" height="30"/>
+                                        <state key="normal" title="Creativity"/>
+                                        <connections>
+                                            <segue destination="eXN-lr-waa" kind="show" id="JZb-G1-GNe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PC-id-mdd">
+                                        <rect key="frame" x="19.5" y="78" width="54" height="30"/>
+                                        <state key="normal" title="Internet"/>
+                                        <connections>
+                                            <segue destination="6DT-9b-UPZ" kind="show" id="T66-0x-xeI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqY-Xn-hLv">
+                                        <rect key="frame" x="6.5" y="156" width="80" height="30"/>
+                                        <state key="normal" title="Abstraction"/>
+                                        <connections>
+                                            <segue destination="v82-K8-xZp" kind="show" id="9WW-PM-sd4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpt-od-rqV">
+                                        <rect key="frame" x="24.5" y="234" width="44" height="30"/>
+                                        <state key="normal" title="Global"/>
+                                        <connections>
+                                            <segue destination="owp-Ww-6qg" kind="show" id="L3H-SU-FwG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtL-SM-YP3">
+                                        <rect key="frame" x="13" y="312" width="67" height="30"/>
+                                        <state key="normal" title="Algorithm"/>
+                                        <connections>
+                                            <segue destination="hzf-m8-lt0" kind="show" id="j5w-tw-v5P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-3s-fXV">
+                                        <rect key="frame" x="0.0" y="390" width="93" height="30"/>
+                                        <state key="normal" title="Programming"/>
+                                        <connections>
+                                            <segue destination="YB1-N2-JOK" kind="show" id="xqp-OQ-Whh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-jX-dDZ">
+                                        <rect key="frame" x="30.5" y="468" width="32" height="30"/>
+                                        <state key="normal" title="Data"/>
+                                        <connections>
+                                            <segue destination="hWu-UF-eHJ" kind="show" id="hpK-zu-KhX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="JML-jr-03j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="669.60000000000002" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1008.8" y="117.39130434782609"/>
         </scene>
         <!--Internet Detail Controller-->
         <scene sceneID="53C-Ga-2Ce">
@@ -75,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qK-sS-Nv3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3133.5999999999999" y="158.77061469265368"/>
+            <point key="canvasLocation" x="3472.8000000000002" y="158.77061469265368"/>
         </scene>
         <!--Internet Samples-->
         <scene sceneID="G8u-Dk-Cuy">
@@ -140,7 +183,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YyO-XK-hF9">
-                                            <rect key="frame" x="315" y="22" width="52" height="21"/>
+                                            <rect key="frame" x="288" y="22" width="79" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="Author">
@@ -169,7 +212,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Oa-HG-4mp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1564" y="-831.63418290854577"/>
+            <point key="canvasLocation" x="1009" y="-608"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YSy-MF-ZQm">
@@ -198,7 +241,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uQ-Fl-5QW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1644" y="-70"/>
+            <point key="canvasLocation" x="1983.2" y="-70.614692653673174"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="W8a-On-aUD">
@@ -567,6 +610,24 @@ Contact info so you know what to do if you drink poop water and to get more info
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ic-Ib-DqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="177" y="931"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xSn-vD-ava">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S71-31-O9h" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bsv-BI-7da">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mC3-Vy-wPY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xJY-Jl-x2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="117"/>
         </scene>
     </scenes>
     <resources>
